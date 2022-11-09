@@ -7,7 +7,7 @@ let package = Package(
     name: "cmark-gfm",
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
-        .library(name: "mark-gfm", targets: ["libcmark-gfm"]),
+        .library(name: "cmark-gfm", targets: ["libcmark-gfm"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
